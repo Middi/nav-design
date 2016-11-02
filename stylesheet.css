@@ -152,9 +152,18 @@ input[type=text] {
 input:focus {
 
 		outline: none !important;
-
+	border-color: white !important;
 
 }
+
+
+input:hover {
+
+	border-color: #ccc;
+
+}
+
+
 
 .icon-search {
     float: left;
