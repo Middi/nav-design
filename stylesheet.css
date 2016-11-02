@@ -136,12 +136,16 @@ button:hover {
 }
 
 input[type=text] {
-    width: 280px;
-    line-height: 30px;
-    padding: 0;
-    margin: 13px 0;
-    font-size: 20px;
+    width: 240px;
+    line-height: 20px;
+    padding: 4px 16px;
+    margin: 14px 0;
+    font-size: 18px;
     float: left;
+		border-radius: 20px;
+		background-color: rgba(0, 0, 0, 0.3);
+		color: rgba(68, 199, 158, 1);
+		border: 2px solid #aaa;
 }
 
 
@@ -155,5 +159,7 @@ input:focus {
 .icon-search {
     float: left;
     line-height: 24px;
-    margin: 13px 0;
+    margin: 14px -38px;
+		color: #aaa;
+		border: none;
 }
