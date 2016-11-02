@@ -144,6 +144,14 @@ input[type=text] {
     float: left;
 }
 
+
+input:focus {
+
+		outline: none !important;
+
+
+}
+
 .icon-search {
     float: left;
     line-height: 24px;
