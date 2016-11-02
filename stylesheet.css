@@ -1,47 +1,151 @@
+/* NORMALISING CSS ONLY DON'T WORRY ABOUT THIS */
 
-
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
 }
 
-
-
-article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
-	display: block;
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;
 }
+
 body {
-	line-height: 1;
+    line-height: 1;
 }
+
 ol, ul {
-	list-style: none;
+    list-style: none;
 }
+
 blockquote, q {
-	quotes: none;
+    quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
+
+blockquote:before, blockquote:after, q:before, q:after {
+    content: '';
+    content: none;
 }
+
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+/* END OF NORMALISING CSS */
+
+
+/*  --------------- CSS START ---------------  */
+
+a, p, button {
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    text-decoration: none;
+}
+
+h4 {
+    padding: 2px 0 10px 80px;
+    font-size: 28px;
+}
+
+h6 {
+    padding: 2px 0 10px 80px;
+    font-size: 22px;
+}
+
+a:hover, .box-button:hover {
+    color: rgba(68, 199, 158, 1);
+    border-color: rgba(68, 199, 158, 1);
+}
+
+.logo {
+    font-size: 26px;
+    float: left;
+    line-height: 60px;
+    padding: 0 15px;
+}
+
+.logo2 {
+    float: left;
+    padding: 0 15px;
+    line-height: 60px;
+    font-size: 28px;
+}
+
+.logo2 img {
+    height: 22px;
+    width: auto;
+}
+
+.bold {
+    font-weight: 800;
+}
+
+.accent {
+    color: rgba(68, 199, 158, 1);
+}
+
+.box-button {
+    border: 2px solid white;
+    padding: 3px 11px;
+}
+
+header {
+    height: 60px;
+    width: 100%;
+    background-color: rgba(21, 27, 52, 1);
+    border-bottom: 4px solid rgba(68, 199, 158, 1);
+}
+
+nav {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+ul {
+    list-style-type: none;
+    line-height: 60px;
+    float: right;
+}
+
+li {
+    display: inline;
+    padding: 0 15px;
+}
+
+button {
+    background: none;
+    border: 2px solid white;
+    padding: 3px 11px;
+    font-size: 16px;
+    margin: 0;
+}
+
+button:hover {
+    color: rgba(68, 199, 158, 1);
+    border-color: rgba(68, 199, 158, 1);
+}
+
+.search {
+    line-height: 60px;
+}
+
+input[type=text] {
+    width: 280px;
+    line-height: 30px;
+    padding: 0;
+    margin: 13px 0;
+    font-size: 20px;
+    float: left;
+}
+
+.icon-search {
+    float: left;
+    line-height: 24px;
+    margin: 13px 0;
 }
